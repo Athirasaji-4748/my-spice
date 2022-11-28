@@ -26,7 +26,7 @@ def processed_img(img_path):
     return res
 
 def run():
-    img1 = Image.open('home/IMG_20220211_142532.jpg')
+    img1 = Image.open('home/spice.jpeg')
     img1 = img1.resize((350,350))
     st.image(img1,use_column_width=False)
     st.title("Spices Recognition Classification")
